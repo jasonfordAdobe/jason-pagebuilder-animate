@@ -1,1 +1,3 @@
-# jason-pagebuilder-animate
+# Jason_Animate
+
+Page Builder content type for Animate.

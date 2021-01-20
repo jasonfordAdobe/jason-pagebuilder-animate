@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_PageBuilder:etc/content_type.xsd">
+    <type name="jason_animate"
+          label="Animate"
+          menu_section="layout"
+          component="Magento_PageBuilder/js/content-type-collection"
+          preview_component="Jason_Animate/js/content-type/jason-animate/preview"
+          master_component="Magento_PageBuilder/js/content-type/master-collection"
+          form="pagebuilder_jason_animate_form"
+          icon="icon-animate"
+          sortOrder="100"
+          translate="label">
+        <parents default_policy="deny">
+            <parent name="row" policy="allow"/>
+            <parent name="column" policy="allow"/>
+        </parents>
+        <children default_policy="allow">
+            <child name="row" policy="deny"/>
+            <child name="column" policy="deny"/>
+            <child name="jason_animate" policy="deny"/>
+        </children>
+        <appearances>
+            <appearance name="default"
+                    default="true"
+                    preview_template="Jason_Animate/content-type/jason-animate/default/preview"
+                    master_template="Jason_Animate/content-type/jason-animate/default/master"
+                    reader="Magento_PageBuilder/js/master-format/read/configurable">
+                <elements>
+                    <element name="main">
+                        <!-- Style mappings for the Advance section of the `pagebuilder_base_form.xml`. Remove or reconfigure as needed. -->
+                        <style name="text_align" source="text_align"/>
+                        <style name="border" source="border_style" converter="Magento_PageBuilder/js/converter/style/border-style"/>
+                        <style name="border_color" source="border_color"/>
+                        <style name="background_color" source="background_color"/>
+                        <style name="background_image" source="background_image" converter="Magento_PageBuilder/js/converter/style/background-image" preview_converter="Magento_PageBuilder/js/converter/style/preview/background-image" persistence_mode="write"/>
+                        <style name="border_width" source="border_width" converter="Magento_PageBuilder/js/converter/style/border-width"/>
+                        <style name="border_radius" source="border_radius" converter="Magento_PageBuilder/js/converter/style/remove-px"/>
+                        <style name="margins" storage_key="margins_and_padding" reader="Magento_PageBuilder/js/property/margins" converter="Magento_PageBuilder/js/converter/style/margins"/>
+                        <style name="padding" storage_key="margins_and_padding" reader="Magento_PageBuilder/js/property/paddings" converter="Magento_PageBuilder/js/converter/style/paddings"/>
+                        <style name="display" source="display" converter="Magento_PageBuilder/js/converter/style/display" preview_converter="Magento_PageBuilder/js/converter/style/preview/display"/>
+                        <attribute name="name" source="data-content-type"/>
+                        <attribute name="appearance" source="data-appearance"/>
+                        <css name="css_classes"/>
+                        <!-- Add more style, attribute, html, and css nodes as needed. -->
+                    </element>
+                    <!-- Example element for input form field. Remove or reconfigure as needed. -->
+                    <element name="animate_name">
+                        <html name="animate_name" converter="Magento_PageBuilder/js/converter/html/tag-escaper"/>
+                    </element>
+                    <element name="animate_duration">
+                        <html name="animate_duration" converter="Magento_PageBuilder/js/converter/html/tag-escaper"/>
+                    </element>
+                    <element name="animate_delay">
+                        <html name="animate_delay" converter="Magento_PageBuilder/js/converter/html/tag-escaper"/>
+                    </element>
+                    <element name="animate_iteration">
+                        <html name="animate_iteration" converter="Magento_PageBuilder/js/converter/html/tag-escaper"/>
+                    </element>
+                </elements>
+            </appearance>
+            <!-- Add more appearances here as needed. -->
+        </appearances>
+    </type>
+</config>
