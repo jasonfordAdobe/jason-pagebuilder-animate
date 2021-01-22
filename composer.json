@@ -9,7 +9,7 @@
     },
     "type": "magento2-module",
     "license": [
-        "GNU"
+        "proprietary"
     ],
     "autoload": {
         "files": [
