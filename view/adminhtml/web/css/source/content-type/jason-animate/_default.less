@@ -3,20 +3,25 @@
 //  _____________________________________________
 
 [data-content-type='jason_animate'] {
-    // Custom class example
-    .my-class {
-      font-size: 20px;
-      font-weight: normal;
-      padding: 20px;
-    }
+  // Custom class example
+  .my-class {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 20px;
   }
+}
   
-  // Required when using a custom SVG icon for your content type in the Page Builder panel
-  .icon-animate {
-    content: url('@{baseDir}Jason_Animate/css/images/content-type/jason-animate/appearance/icon-animate.svg');
-    width: 16px;
-    height: 16px;
-    margin-bottom: -2px;
-    margin-left: 1px;
-  }
-  
+// Required when using a custom SVG icon for your content type in the Page Builder panel
+.icon-animate {
+  content: url('@{baseDir}Jason_Animate/css/images/content-type/jason-animate/appearance/icon-animate.svg');
+  width: 16px;
+  height: 16px;
+  margin-bottom: -2px;
+  margin-left: 1px;
+}
+
+.pagebuilder-content-type.children-min-height>div>.jason_animate-container.element-children {
+  min-height: inherit;
+  padding: 2rem 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23727272' fill-opacity='0.27' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}

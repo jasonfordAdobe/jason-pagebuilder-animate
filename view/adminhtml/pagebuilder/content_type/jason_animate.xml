@@ -44,17 +44,11 @@
                         <!-- Add more style, attribute, html, and css nodes as needed. -->
                     </element>
                     <!-- Example element for input form field. Remove or reconfigure as needed. -->
-                    <element name="animate_name">
-                        <html name="animate_name" converter="Magento_PageBuilder/js/converter/html/tag-escaper"/>
-                    </element>
-                    <element name="animate_duration">
-                        <html name="animate_duration" converter="Magento_PageBuilder/js/converter/html/tag-escaper"/>
-                    </element>
-                    <element name="animate_delay">
-                        <html name="animate_delay" converter="Magento_PageBuilder/js/converter/html/tag-escaper"/>
-                    </element>
-                    <element name="animate_iteration">
-                        <html name="animate_iteration" converter="Magento_PageBuilder/js/converter/html/tag-escaper"/>
+                    <element name="animate">
+                        <attribute name="animate_name" source="data-josh-anim-name"/>
+                        <attribute name="animate_duration" source="data-josh-duration"/>
+                        <attribute name="animate_delay" source="data-josh-anim-delay"/>
+                        <attribute name="animate_iteration" source="data-josh-iteration"/>
                     </element>
                 </elements>
             </appearance>

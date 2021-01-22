@@ -103,6 +103,384 @@
                                 <item name="value" xsi:type="string">flash</item>
                                 <item name="label" xsi:type="string" translate="false">flash</item>
                             </option>
+                            <option name="pulse" xsi:type="array">
+                                <item name="value" xsi:type="string">pulse</item>
+                                <item name="label" xsi:type="string" translate="false">pulse</item>
+                                <item name="optgroup" xsi:type="string" translate="false">Attention Seekers</item>
+                            </option>
+                            <option name="rubberBand" xsi:type="array">
+                                <item name="value" xsi:type="string">rubberBand</item>
+                                <item name="label" xsi:type="string" translate="false">rubberBand</item>
+                                <item name="optgroup" xsi:type="string" translate="false">Attention Seekers</item>
+                            </option>
+                            <option name="shakeX" xsi:type="array">
+                                <item name="value" xsi:type="string">shakeX</item>
+                                <item name="label" xsi:type="string" translate="false">shakeX</item>
+                            </option>
+                            <option name="shakeY" xsi:type="array">
+                                <item name="value" xsi:type="string">shakeY</item>
+                                <item name="label" xsi:type="string" translate="false">shakeY</item>
+                            </option>
+                            <option name="headShake" xsi:type="array">
+                                <item name="value" xsi:type="string">headShake</item>
+                                <item name="label" xsi:type="string" translate="false">headShake</item>
+                            </option>
+                            <option name="swing" xsi:type="array">
+                                <item name="value" xsi:type="string">swing</item>
+                                <item name="label" xsi:type="string" translate="false">swing</item>
+                            </option>
+                            <option name="tada" xsi:type="array">
+                                <item name="value" xsi:type="string">tada</item>
+                                <item name="label" xsi:type="string" translate="false">tada</item>
+                            </option>
+                            <option name="wobble" xsi:type="array">
+                                <item name="value" xsi:type="string">wobble</item>
+                                <item name="label" xsi:type="string" translate="false">wobble</item>
+                            </option>
+                            <option name="jello" xsi:type="array">
+                                <item name="value" xsi:type="string">jello</item>
+                                <item name="label" xsi:type="string" translate="false">jello</item>
+                            </option>
+                            <option name="heartBeat" xsi:type="array">
+                                <item name="value" xsi:type="string">heartBeat</item>
+                                <item name="label" xsi:type="string" translate="false">heartBeat</item>
+                            </option>
+                            <option name="backInDown" xsi:type="array">
+                                <item name="value" xsi:type="string">backInDown</item>
+                                <item name="label" xsi:type="string" translate="false">backInDown</item>
+                            </option>
+                            <option name="backInLeft" xsi:type="array">
+                                <item name="value" xsi:type="string">backInLeft</item>
+                                <item name="label" xsi:type="string" translate="false">backInLeft</item>
+                            </option>
+                            <option name="backInRight" xsi:type="array">
+                                <item name="value" xsi:type="string">backInRight</item>
+                                <item name="label" xsi:type="string" translate="false">backInRight</item>
+                            </option>
+                            <option name="backInUp" xsi:type="array">
+                                <item name="value" xsi:type="string">backInUp</item>
+                                <item name="label" xsi:type="string" translate="false">backInUp</item>
+                            </option>
+                            <option name="backOutDown" xsi:type="array">
+                                <item name="value" xsi:type="string">backOutDown</item>
+                                <item name="label" xsi:type="string" translate="false">backOutDown</item>
+                            </option>
+                            <option name="backOutLeft" xsi:type="array">
+                                <item name="value" xsi:type="string">backOutLeft</item>
+                                <item name="label" xsi:type="string" translate="false">backOutLeft</item>
+                            </option>
+                            <option name="backOutRight" xsi:type="array">
+                                <item name="value" xsi:type="string">backOutRight</item>
+                                <item name="label" xsi:type="string" translate="false">backOutRight</item>
+                            </option>
+                            <option name="backOutUp" xsi:type="array">
+                                <item name="value" xsi:type="string">backOutUp</item>
+                                <item name="label" xsi:type="string" translate="false">backOutUp</item>
+                            </option>
+                            <option name="bounceInDown" xsi:type="array">
+                                <item name="value" xsi:type="string">bounceInDown</item>
+                                <item name="label" xsi:type="string" translate="false">bounceInDown</item>
+                            </option>
+                            <option name="bounceInLeft" xsi:type="array">
+                                <item name="value" xsi:type="string">bounceInLeft</item>
+                                <item name="label" xsi:type="string" translate="false">bounceInLeft</item>
+                            </option>
+                            <option name="bounceInRight" xsi:type="array">
+                                <item name="value" xsi:type="string">bounceInRight</item>
+                                <item name="label" xsi:type="string" translate="false">bounceInRight</item>
+                            </option>
+                            <option name="bounceInUp" xsi:type="array">
+                                <item name="value" xsi:type="string">bounceInUp</item>
+                                <item name="label" xsi:type="string" translate="false">bounceInUp</item>
+                            </option>
+                            <option name="bounceOutDown" xsi:type="array">
+                                <item name="value" xsi:type="string">bounceOutDown</item>
+                                <item name="label" xsi:type="string" translate="false">bounceOutDown</item>
+                            </option>
+                            <option name="bounceOutLeft" xsi:type="array">
+                                <item name="value" xsi:type="string">bounceOutLeft</item>
+                                <item name="label" xsi:type="string" translate="false">bounceOutLeft</item>
+                            </option>
+                            <option name="bounceOutRight" xsi:type="array">
+                                <item name="value" xsi:type="string">bounceOutRight</item>
+                                <item name="label" xsi:type="string" translate="false">bounceOutRight</item>
+                            </option>
+                            <option name="bounceOutUp" xsi:type="array">
+                                <item name="value" xsi:type="string">bounceOutUp</item>
+                                <item name="label" xsi:type="string" translate="false">bounceOutUp</item>
+                            </option>
+                            <option name="fadeIn" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeIn</item>
+                                <item name="label" xsi:type="string" translate="false">fadeIn</item>
+                            </option>
+                            <option name="fadeInDown" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeInDown</item>
+                                <item name="label" xsi:type="string" translate="false">fadeInDown</item>
+                            </option>
+                            <option name="fadeInDownBig" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeInDownBig</item>
+                                <item name="label" xsi:type="string" translate="false">fadeInDownBig</item>
+                            </option>
+                            <option name="fadeInLeft" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeInLeft</item>
+                                <item name="label" xsi:type="string" translate="false">fadeInLeft</item>
+                            </option>
+                            <option name="fadeInLeftBig" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeInLeftBig</item>
+                                <item name="label" xsi:type="string" translate="false">fadeInLeftBig</item>
+                            </option>
+                            <option name="fadeInRight" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeInRight</item>
+                                <item name="label" xsi:type="string" translate="false">fadeInRight</item>
+                            </option>
+                            <option name="fadeInRightBig" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeInRightBig</item>
+                                <item name="label" xsi:type="string" translate="false">fadeInRightBig</item>
+                            </option>
+                            <option name="fadeInUp" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeInUp</item>
+                                <item name="label" xsi:type="string" translate="false">fadeInUp</item>
+                            </option>
+                            <option name="fadeInUpBig" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeInUpBig</item>
+                                <item name="label" xsi:type="string" translate="false">fadeInUpBig</item>
+                            </option>
+                            <option name="fadeInTopLeft" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeInTopLeft</item>
+                                <item name="label" xsi:type="string" translate="false">fadeInTopLeft</item>
+                            </option>
+                            <option name="fadeInTopRight" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeInTopRight</item>
+                                <item name="label" xsi:type="string" translate="false">fadeInTopRight</item>
+                            </option>
+                            <option name="fadeInBottomLeft" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeInBottomLeft</item>
+                                <item name="label" xsi:type="string" translate="false">fadeInBottomLeft</item>
+                            </option>
+                            <option name="fadeInBottomRight" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeInBottomRight</item>
+                                <item name="label" xsi:type="string" translate="false">fadeInBottomRight</item>
+                            </option>
+                            <option name="fadeOut" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeOut</item>
+                                <item name="label" xsi:type="string" translate="false">fadeOut</item>
+                            </option>
+                            <option name="fadeOutDown" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeOutDown</item>
+                                <item name="label" xsi:type="string" translate="false">fadeOutDown</item>
+                            </option>
+                            <option name="fadeOutDownBig" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeOutDownBig</item>
+                                <item name="label" xsi:type="string" translate="false">fadeOutDownBig</item>
+                            </option>
+                            <option name="fadeOutLeft" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeOutLeft</item>
+                                <item name="label" xsi:type="string" translate="false">fadeOutLeft</item>
+                            </option>
+                            <option name="fadeOutLeftBig" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeOutLeftBig</item>
+                                <item name="label" xsi:type="string" translate="false">fadeOutLeftBig</item>
+                            </option>
+                            <option name="fadeOutRight" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeOutRight</item>
+                                <item name="label" xsi:type="string" translate="false">fadeOutRight</item>
+                            </option>
+                            <option name="fadeOutRightBig" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeOutRightBig</item>
+                                <item name="label" xsi:type="string" translate="false">fadeOutRightBig</item>
+                            </option>
+                            <option name="fadeOutUp" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeOutUp</item>
+                                <item name="label" xsi:type="string" translate="false">fadeOutUp</item>
+                            </option>
+                            <option name="fadeOutUpBig" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeOutUpBig</item>
+                                <item name="label" xsi:type="string" translate="false">fadeOutUpBig</item>
+                            </option>
+                            <option name="fadeOutTopLeft" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeOutTopLeft</item>
+                                <item name="label" xsi:type="string" translate="false">fadeOutTopLeft</item>
+                            </option>
+                            <option name="fadeOutTopRight" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeOutTopRight</item>
+                                <item name="label" xsi:type="string" translate="false">fadeOutTopRight</item>
+                            </option>
+                            <option name="fadeOutBottomLeft" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeOutBottomLeft</item>
+                                <item name="label" xsi:type="string" translate="false">fadeOutBottomLeft</item>
+                            </option>
+                            <option name="fadeOutBottomRight" xsi:type="array">
+                                <item name="value" xsi:type="string">fadeOutBottomRight</item>
+                                <item name="label" xsi:type="string" translate="false">fadeOutBottomRight</item>
+                            </option>
+                            <option name="flip" xsi:type="array">
+                                <item name="value" xsi:type="string">flip</item>
+                                <item name="label" xsi:type="string" translate="false">flip</item>
+                            </option>
+                            <option name="flipInX" xsi:type="array">
+                                <item name="value" xsi:type="string">flipInX</item>
+                                <item name="label" xsi:type="string" translate="false">flipInX</item>
+                            </option>
+                            <option name="flipInY" xsi:type="array">
+                                <item name="value" xsi:type="string">flipInY</item>
+                                <item name="label" xsi:type="string" translate="false">flipInY</item>
+                            </option>
+                            <option name="flipOutX" xsi:type="array">
+                                <item name="value" xsi:type="string">flipOutX</item>
+                                <item name="label" xsi:type="string" translate="false">flipOutX</item>
+                            </option>
+                            <option name="flipOutY" xsi:type="array">
+                                <item name="value" xsi:type="string">flipOutY</item>
+                                <item name="label" xsi:type="string" translate="false">flipOutY</item>
+                            </option>
+                            <option name="flipOutY" xsi:type="array">
+                                <item name="value" xsi:type="string">flipOutY</item>
+                                <item name="label" xsi:type="string" translate="false">flipOutY</item>
+                            </option>
+                            <option name="lightSpeedInRight" xsi:type="array">
+                                <item name="value" xsi:type="string">lightSpeedInRight</item>
+                                <item name="label" xsi:type="string" translate="false">lightSpeedInRight</item>
+                            </option>
+                            <option name="lightSpeedInLeft" xsi:type="array">
+                                <item name="value" xsi:type="string">lightSpeedInLeft</item>
+                                <item name="label" xsi:type="string" translate="false">lightSpeedInLeft</item>
+                            </option>
+                            <option name="lightSpeedOutRight" xsi:type="array">
+                                <item name="value" xsi:type="string">lightSpeedOutRight</item>
+                                <item name="label" xsi:type="string" translate="false">lightSpeedOutRight</item>
+                            </option>
+                            <option name="lightSpeedOutLeft" xsi:type="array">
+                                <item name="value" xsi:type="string">lightSpeedOutLeft</item>
+                                <item name="label" xsi:type="string" translate="false">lightSpeedOutLeft</item>
+                            </option>
+                            <option name="rotateIn" xsi:type="array">
+                                <item name="value" xsi:type="string">rotateIn</item>
+                                <item name="label" xsi:type="string" translate="false">rotateIn</item>
+                            </option>
+                            <option name="rotateInDownLeft" xsi:type="array">
+                                <item name="value" xsi:type="string">rotateInDownLeft</item>
+                                <item name="label" xsi:type="string" translate="false">rotateInDownLeft</item>
+                            </option>
+                            <option name="rotateInDownRight" xsi:type="array">
+                                <item name="value" xsi:type="string">rotateInDownRight</item>
+                                <item name="label" xsi:type="string" translate="false">rotateInDownRight</item>
+                            </option>
+                            <option name="rotateInUpLeft" xsi:type="array">
+                                <item name="value" xsi:type="string">rotateInUpLeft</item>
+                                <item name="label" xsi:type="string" translate="false">rotateInUpLeft</item>
+                            </option>
+                            <option name="rotateInUpRight" xsi:type="array">
+                                <item name="value" xsi:type="string">rotateInUpRight</item>
+                                <item name="label" xsi:type="string" translate="false">rotateInUpRight</item>
+                            </option>
+                            <option name="rotateOut" xsi:type="array">
+                                <item name="value" xsi:type="string">rotateIn</item>
+                                <item name="label" xsi:type="string" translate="false">rotateIn</item>
+                            </option>
+                            <option name="rotateOutDownLeft" xsi:type="array">
+                                <item name="value" xsi:type="string">rotateOutDownLeft</item>
+                                <item name="label" xsi:type="string" translate="false">rotateOutDownLeft</item>
+                            </option>
+                            <option name="rotateOutDownRight" xsi:type="array">
+                                <item name="value" xsi:type="string">rotateOutDownRight</item>
+                                <item name="label" xsi:type="string" translate="false">rotateOutDownRight</item>
+                            </option>
+                            <option name="rotateOutUpLeft" xsi:type="array">
+                                <item name="value" xsi:type="string">rotateOutUpLeft</item>
+                                <item name="label" xsi:type="string" translate="false">rotateOutUpLeft</item>
+                            </option>
+                            <option name="rotateOutUpRight" xsi:type="array">
+                                <item name="value" xsi:type="string">rotateOutUpRight</item>
+                                <item name="label" xsi:type="string" translate="false">rotateOutUpRight</item>
+                            </option>
+                            <option name="hinge" xsi:type="array">
+                                <item name="value" xsi:type="string">hinge</item>
+                                <item name="label" xsi:type="string" translate="false">hinge</item>
+                            </option>
+                            <option name="jackInTheBox" xsi:type="array">
+                                <item name="value" xsi:type="string">jackInTheBox</item>
+                                <item name="label" xsi:type="string" translate="false">jackInTheBox</item>
+                            </option>
+                            <option name="rollIn" xsi:type="array">
+                                <item name="value" xsi:type="string">rollIn</item>
+                                <item name="label" xsi:type="string" translate="false">rollIn</item>
+                            </option>
+                            <option name="rollOut" xsi:type="array">
+                                <item name="value" xsi:type="string">rollOut</item>
+                                <item name="label" xsi:type="string" translate="false">rollOut</item>
+                            </option>
+                            <option name="zoomIn" xsi:type="array">
+                                <item name="value" xsi:type="string">zoomIn</item>
+                                <item name="label" xsi:type="string" translate="false">zoomIn</item>
+                            </option>
+                            <option name="zoomInDown" xsi:type="array">
+                                <item name="value" xsi:type="string">zoomInDown</item>
+                                <item name="label" xsi:type="string" translate="false">zoomInDown</item>
+                            </option>
+                            <option name="zoomInLeft" xsi:type="array">
+                                <item name="value" xsi:type="string">zoomInLeft</item>
+                                <item name="label" xsi:type="string" translate="false">zoomInLeft</item>
+                            </option>
+                            <option name="zoomInRight" xsi:type="array">
+                                <item name="value" xsi:type="string">zoomInRight</item>
+                                <item name="label" xsi:type="string" translate="false">zoomInRight</item>
+                            </option>
+                            <option name="zoomInUp" xsi:type="array">
+                                <item name="value" xsi:type="string">zoomInUp</item>
+                                <item name="label" xsi:type="string" translate="false">zoomInUp</item>
+                            </option>
+                            <option name="zoomOut" xsi:type="array">
+                                <item name="value" xsi:type="string">zoomOut</item>
+                                <item name="label" xsi:type="string" translate="false">zoomOut</item>
+                            </option>
+                            <option name="zoomOutDown" xsi:type="array">
+                                <item name="value" xsi:type="string">zoomOutDown</item>
+                                <item name="label" xsi:type="string" translate="false">zoomOutDown</item>
+                            </option>
+                            <option name="zoomOutLeft" xsi:type="array">
+                                <item name="value" xsi:type="string">zoomOutLeft</item>
+                                <item name="label" xsi:type="string" translate="false">zoomOutLeft</item>
+                            </option>
+                            <option name="zoomOutRight" xsi:type="array">
+                                <item name="value" xsi:type="string">zoomOutRight</item>
+                                <item name="label" xsi:type="string" translate="false">zoomOutRight</item>
+                            </option>
+                            <option name="zoomOutUp" xsi:type="array">
+                                <item name="value" xsi:type="string">zoomOutUp</item>
+                                <item name="label" xsi:type="string" translate="false">zoomOutUp</item>
+                            </option>
+                            <option name="slideInDown" xsi:type="array">
+                                <item name="value" xsi:type="string">slideInDown</item>
+                                <item name="label" xsi:type="string" translate="false">slideInDown</item>
+                            </option>
+                            <option name="slideInLeft" xsi:type="array">
+                                <item name="value" xsi:type="string">slideInLeft</item>
+                                <item name="label" xsi:type="string" translate="false">slideInLeft</item>
+                            </option>
+                            <option name="slideInRight" xsi:type="array">
+                                <item name="value" xsi:type="string">slideInRight</item>
+                                <item name="label" xsi:type="string" translate="false">slideInRight</item>
+                            </option>
+                            <option name="slideInUp" xsi:type="array">
+                                <item name="value" xsi:type="string">slideInUp</item>
+                                <item name="label" xsi:type="string" translate="false">slideInUp</item>
+                            </option>
+                            <option name="slideOutDown" xsi:type="array">
+                                <item name="value" xsi:type="string">slideOutDown</item>
+                                <item name="label" xsi:type="string" translate="false">slideOutDown</item>
+                            </option>
+                            <option name="slideOutLeft" xsi:type="array">
+                                <item name="value" xsi:type="string">slideOutLeft</item>
+                                <item name="label" xsi:type="string" translate="false">slideOutLeft</item>
+                            </option>
+                            <option name="slideOutRight" xsi:type="array">
+                                <item name="value" xsi:type="string">slideOutRight</item>
+                                <item name="label" xsi:type="string" translate="false">slideOutRight</item>
+                            </option>
+                            <option name="slideOutUp" xsi:type="array">
+                                <item name="value" xsi:type="string">slideOutUp</item>
+                                <item name="label" xsi:type="string" translate="false">slideOutUp</item>
+                            </option>
                         </options>
                     </settings>
                 </select>
