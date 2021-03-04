@@ -1,5 +1,4 @@
 # CSS Animations for Magento Page Builder
-
 Adding CSS animations to Page Builder. The aim is to make pages and content more engaging through the use of movement. Using CSS animations is preferred over JS animations as it's repeatable and well supported.
 
 This also includes JS which will trigger the animation when it comes into viewport.
@@ -17,13 +16,13 @@ Drag the element on to screen, within a row or column. Drag other content elemen
 
 ![Animation on the frontend](image_animation_on_fe.gif "Animation on the frontend")
 
-
 ## To do
 
 * Test thoroughly
 * Add defaults to Animation settings
 * Make the "scroll to viewport" offset adjustable
 * Make it easier to add/remove animations
+
 
 ## Boring stuff
 
